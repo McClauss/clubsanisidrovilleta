@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fuente Comforta Bold700-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <!--Fuente Amatic-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <!--Fuente Neucha-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css> <!-- CDN de Bootstrap del CSS -->
+    <script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js></script> <!-- CDN de Bootstrap del JS -->
+    <script src=https://code.jquery.com/jquery-3.4.1.slim.min.js></script><!-- CDN de la librería de Jquery  -->
+    <script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js></script> <!-- CDN de la librería de Popper  -->
+    <!--Hoja de Estilos-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!--<link rel="stylesheet" href="css/style_final.css">
+    -->
+
+    <!--Metaeqtiquetas / SEO-->
+    <!--Descripción entre 70 a 320 caracteres-->
+    <meta name="description" content="Club Campestre San Isidro, centro vacacional con piscinas, tobogán y restaurante. Un espacio lleno de naturaleza y diversión a 1 hora de Bogotá">
+
+    <!--Keywords / Separadas por comas / 15 max-->
+    <meta name="keywords" content="piscina, piscinas, tobogán, toboganes, restaurante, vacaciones, paseo, Villeta, Cundinamarca, turismo, balneario, zonas verdes, fin de semana, festivo, festival">
+
+    <!--Favicon - Icono de la pagina-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!--open graph es como se muestra en redes-->
+    <meta propertY="og:title" content="Club Campestre San Isidro - Piscina, Restaurante, Tobogán en Villeta">
+    <meta propertY="og:url" content="https://clubsanisidrovilleta.000webhostapp.com/">
+    <meta property="og:image" content="https://clubsanisidrovilleta.000webhostapp.com/img/tobogan_01.png">
+    <meta property="og:description" content="Siguenos en nuestras redes sociales y obtén una atención en tu ingreso al club">
+    <meta property="og:locale" content="es_ES">
+
+
+    <!--Tiene que estar entre 35 a 65 caracteres-->
+    <title>Club Campestre San Isidro - Piscina, Restaurante, Tobogán en Villeta</title>
+</head>
+<body>
+    <div class="container">
+        <!--Header-->
+        <header>
+            <div class="row">
+                <div class="col">
+                    <div class="container">
+                        <div class="row  align-items-center">
+                            <div class="col ">
+                                <img src="icons/logo_SanIsidro_04.png" class="rounded img-fluid" alt="Piscina Tobogan">
+                            </div>
+                            <div class="col-6 titulo  animate__animated animate__bounceIn">
+                                 <h1 class="text-center display-4">Club Campestre San Isidro</h1>
+                                 <h2 class="text-center display-5">Piscinas - Tobogán - Restaurante</h2>
+                            </div>
+                            <!--
+                            <div class="col">
+                                <button type="button" class="btn btn-danger btn-lg">Compra tus Entradas</button>
+                            </div>-->
+                            <div class="col">
+                                <!-- Button to Open the Modal -->
+                                    <button type="button" class="btn-lg btn-danger" data-toggle="modal" data-target="#myModal">
+                                        Compra tus Entradas Aquí
+                                    </button>                                
+                                <!-- The Modal -->
+                                <div class="modal" id="myModal">
+                                    <div class="modal-dialog">
+                                    <div class="modal-content">
+                                
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                        <h4 class="modal-title">Compra de Entradas</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                           No Olvides Nuestros Combos Pasa Día!
+                                        </div>
+                                
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <a class="btn-danger btn-lg" href="pages/planes.html">
+                                                Continuar
+                                            </a>
+                                        </div>
+                                
+                                    </div>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-2">
+                <!--Nav-->
+                <nav>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <img src="icons/logo_SanIsidro_03.png"  alt="Piscina Tobogan" width="160" height="64">
+                        </li>
+                        <li class="nav-item m-1">
+                            <a class="nav-link active btn-lg bg-primary text-light" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item m-1">
+                            <a class="nav-link btn-lg bg-warning text-dark" href="pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item m-1">
+                            <a class="nav-link btn-lg bg-danger text-light" href="pages/planes.html">Combos Pasa Dia</a>
+                        </li>
+                        <li class="nav-item m-1">
+                            <a class="nav-link btn-lg bg-info text-light" href="pages/reservas.html">Grupos/Reservas</a>
+                        </li>
+                        <li class="nav-item m-1">
+                            <a class="nav-link btn-lg bg-success text-light" href="pages/contacto.html">Contacto</a>
+                        </li>
+                      </ul>       
+                </nav>
+            </div>
+            <div class="col-1"></div>
+            <div class="col start">
+                <!--Contenidos-->
+                <section>
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="text-center display-5 titulo text-decoration-underline">Bienvenido al paraiso de Villeta</h3>
+                            <p>Ven y disfruta de un dia en familia lleno de diversión y entretenimiento. Prueba nuestros platos, toma una siesta en la hamaca, disfruta de la piscina. No dudes en visitarnos. ¡Consulta nuestros paquetes para grupos y empresas! </p>
+                            <p>Nuestro Horario de atención: Sábados, Domingos y Festivos 09:00 AM a 05:30 PM</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <a href="pages/servicios.html">
+                                <div id="demo" class="carousel slide" data-ride="carousel">
+        
+                                    <!-- Indicadores -->
+                                    <ul class="carousel-indicators">
+                                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                        <li data-target="#demo" data-slide-to="1"></li>
+                                        <li data-target="#demo" data-slide-to="2"></li>
+                                        <li data-target="#demo" data-slide-to="3"></li>
+                                        <li data-target="#demo" data-slide-to="4"></li>
+                                    </ul>
+                                
+                                    <!-- Diapositivas -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/aerea1.png" class="img-fluid" alt="Piscinas - Tobogán">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Club Campestre San Isidro</h5>
+                                                <p>Ven y disfruta de nuestros servicios. Un paraiso tropical en Villeta Cundinamarca</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/piscina_tobogan.png" class=" img-fluid" alt="Tobogán con 80 mts de recorrido">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Pisicna, Tobogán. Restauramte</h5>
+                                                <p>Un divertido tobogán para toda la familia. También tenemos piscina especial para los más pequeños</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/palmeras.png" class=" img-fluid" alt="Zonas y Espacios Verdes">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Zonas Verdes</h5>
+                                                <p>Descansa y disfruta de la naturaleza. Respira aire fresco</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/salon.png" class=" img-fluid" alt="Salon de Eventos - Restaurante">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Salón de Eventos - Restaurante</h5>
+                                                <p>Prueba nuestros platos, celebra tus eventos. Tenemos varios espacios</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                    <!-- Controles de izquierda y derecha -->
+                                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <section >
+            <div class="row">
+                <div class="col-sm-6">
+                  <div class="card m-1">
+                    <div class="card-body">
+                      <h5 class="card-title">Reserva para Grupos/Paseos</h5>
+                      <p class="card-text">Tenemos planes y tarifas especiales para grupos.</p>
+                      <a href="#" class="btn btn-primary">Cotizar!</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card m-1">
+                    <div class="card-body">
+                      <h5 class="card-title">Trabaja con Nosotros</h5>
+                      <p class="card-text">¿Quieres hacer parte de nuestro equipo? Completa los datos.</p>
+                      <a href="#" class="btn btn-primary">Solicitar!</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!--Pie de Pagina-->
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <div class="gradiente"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="text-center">
+                        Club Campestre San Isidro &reg; - Villeta (Cundinamarca) / <a href="mailto: cmhc85@gmail.com">sanisidro@gmail.com</a> / <a href="tel: +573105770515">(+57) 310 577 0515	</a>
+                    </p> 
+                </div>
+            </div>
+        </footer>
+        <!--Boton Whatsapp-->
+        <a href="https://api.whatsapp.com/send?phone=56920305655" class="float" target="blank">
+            <i class="fa fa-whatsapp my float"></i>
+        </a>
+    </div>
+    <!--Scripts-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src=""></script>
+</body>
+</html>
