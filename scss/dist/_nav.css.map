@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["_nav.scss"],"sourcesContent":["nav{    \r\n    font-family: 'Amatic SC', cursive;\r\n}"],"file":"_nav.css"}

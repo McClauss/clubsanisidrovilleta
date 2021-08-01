@@ -1,0 +1,1 @@
+{"version":3,"sources":["_footer.scss"],"names":[],"mappings":"AAAA,OACE,YAAa,OAAU,QAGzB,kBACE,iBAAkB,yCAClB,QAAS,KACT,OAAQ","file":"_footer.min.css","sourcesContent":["footer{    \r\n    font-family: 'Neucha', cursive;\r\n\r\n    .gradiente{\r\n        background-image: linear-gradient(to left, #0B4B88, #27B46E);\r\n        padding: 10px;\r\n        margin: 5px;\r\n    }\r\n}"]}

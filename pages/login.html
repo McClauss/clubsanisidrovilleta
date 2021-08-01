@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Hoja de Estilos-->
+    <link rel="stylesheet" href="../css/style_final.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <!--Fuente Comforta Bold700-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <!--Fuente Amatic-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <!--Fuente Neucha-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+     <!--Bootstrap-->
+     <link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css> <!-- CDN de Bootstrap del CSS -->
+     <script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js></script> <!-- CDN de Bootstrap del JS -->
+     <script src=https://code.jquery.com/jquery-3.4.1.slim.min.js></script><!-- CDN de la librería de Jquery  -->
+     <script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js></script> <!-- CDN de la librería de Popper  -->
+     <!--Titulo Pagina-->
+    <title>Club Campestre San Isidro - Villeta</title>
+</head>
+<body>
+    <!--Grilla Principal-->
+    <div id="grilla">
+        <!--Cabecera-->
+        <header>
+            <div class="cabecera bordeRedondo">
+                <div class="grid-head logo">
+                    <img src="..\icons\logo2.png">
+                </div>
+               <div class="grid-head titulo animate__animated animate__bounceIn">
+                    <h1>Club Campestre San Isidro</h1>
+                    <h2>Piscina -Tobogán - Restaurante</h2>
+                    <h3>Villeta, Cundinamarca</h3>
+                </div>
+                <div class="grid-head compra">
+                    <a href="planes.html">
+                        <div class="grid-item bgColorRojoBoton colorBlanco">Compra tu Plan Acá</div>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!--Menú Navegación-->
+        <nav class=" bgColorAzulFondo1">
+            <div class="cabecera">
+                <!--<div class="grid-head logo">
+                    <img src="..\icons\logo2.png">
+                </div>-->
+                <div class="colorAzul">
+                    <p>
+                        Club Campestre San Isidro
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="..\index.html">
+                    <div class="grid-item bgColorRojoBoton colorBlanco">Inicio</div>
+                </a>
+                <a href="reservas.html">
+                    <div class="grid-item bgColorAmarilloBoton colorAzul">Reservas</div>
+                </a>
+                <a href="planes.html">
+                    <div class="grid-item bgColorVerdeBoton colorBlanco">Planes</div>
+                </a>
+                <a href="servicios.html">
+                    <div class="grid-item bgColorAzulBoton colorAzul">Servicios</div>
+                </a>
+                <a href="contacto.html">
+                    <div class="grid-item bgColorCremaBoton colorAzul">Contacto</div>
+                </a>
+                <a href="login.html">
+                    <div class="grid-item bgColorRojoBoton colorBlanco">Login</div>
+                </a>
+            </div>
+        </nav>
+        <!--Contenidos Central-->
+        <section id="seccion1">
+            <div class="contenedor bordeRedondo">
+                <!--Forma Bootstrap-->
+                <h3>Usuarios Registrados</h3>
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">*Ingresa con tu correo electrónico</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div id="passwordHelpBlock" class="form-text">
+                        *Tu contraseña debe tener entre 8-20 caracteres de largo, letras y números, sin espacions, caracteres especiales, o emojis.
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Registrarme</label>
+                    </div>
+                    <button type="submit" class="bgColorRojoBoton boton btn btn-primary">Ingreso/Registro</button>
+                    <button type="reset" class="boton btn btn-primary">Limpiar</button>
+                </form>
+			</div>
+        </section>
+        <section id="seccion2">
+			<h4>Consulta Disponibilidad para tu Grupo </h4>
+            <div class="contenedor">
+				<iframe class="bordeRedondo"src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FSantiago&amp;src=Y21oYzg1QGdtYWlsLmNvbQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aWhhcmJtMG8zYWdlMmpwa2JnbGo1YzhxZmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%234285F4&amp;color=%237CB342&amp;color=%23E4C441" style="border:solid 1px rgb(245, 184, 17)" frameborder="0" scrolling="yes"></iframe>
+            </div>
+        </section>
+        <!--Lateral Derecha-->
+        <aside id="lateral">
+            <div class="contenedor bordeRedondo bgColorAmarilloBoton">
+                <h4>Reservas Paseos/Grupos</h4>
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FSantiago&amp;src=Y21oYzg1QGdtYWlsLmNvbQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aWhhcmJtMG8zYWdlMmpwa2JnbGo1YzhxZmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%234285F4&amp;color=%237CB342&amp;color=%23E4C441" style="border:solid 1px rgb(4, 187, 243)" frameborder="0" scrolling="yes"></iframe>
+            </div>
+            <div class="contenedor bordeRedondo bgColorVerdeBoton">
+                <h4>< < Ubicación > ></h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.6020806490214!2d-74.47140088579734!3d5.005562196366441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e409a4f5aca5e2d%3A0x528fac8830e71443!2sClub%20campestre%20San%20Isidro!5e0!3m2!1ses!2sco!4v1622166513936!5m2!1ses!2sco" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </aside>
+        <footer class="pie">
+            <div class="gradiente"></div>
+            <div>
+                Club Campestre San Isidro &reg; - Villeta (Cundinamarca) / <a href="mailto: cmhc85@gmail.com">sanisidro@gmail.com</a> / <a href="tel: +573105770515">(+57) 310 577 0515	</a>
+            </div>
+            <div class="grid-head redes">
+                Siguenos/Escribenos
+                <div> 
+                    <img src="..\icons\botonTelefono.png" class="imgRedes">
+                    <img src="..\icons\botonWhatsapp.png" class="imgRedes">
+                    <img src="..\icons\botonFacebook.png" class="imgRedes">
+                    <img src="..\icons\botonInstagram.png" class="imgRedes">
+                    <img src="..\icons\botonYoutube.png" class="imgRedes">
+                    <img src="..\icons\botonTripadvisor.png" class="imgRedes">
+                    <img src="..\icons\botonCorreo.png" class="imgRedes">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>

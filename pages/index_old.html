@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fuente Comforta Bold700-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <!--Fuente Amatic-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <!--Fuente Neucha-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css> <!-- CDN de Bootstrap del CSS -->
+    <script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js></script> <!-- CDN de Bootstrap del JS -->
+    <script src=https://code.jquery.com/jquery-3.4.1.slim.min.js></script><!-- CDN de la librería de Jquery  -->
+    <script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js></script> <!-- CDN de la librería de Popper  -->
+    <!--Hoja de Estilos-->
+    <link rel="stylesheet" href="css/style_final.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!--Titulo Pagina-->
+    <title>Club Campestre San Isidro - Villeta</title>
+</head>
+<body>
+    <!--Grilla Principal-->
+    <div id="grilla">
+        <!--Cabecera-->
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class=" col-lg-2 col-sm-1 bg1">
+                        <img class="img-responsive img-thumbnail" 
+                        src="icons\logo_SanIsidro_04.png">
+                    </div>
+                    
+                        <div class="col-lg-5 col-sm-3 bg2">
+                            <div class="animate__animated animate__bounceIn">
+                                <h1>Club Campestre San Isidro</h1>
+                                <h2>Piscina -Tobogán - Restaurante</h2>
+                                <h3>Villeta, Cundinamarca</h3>
+                            </div>
+                        </div>
+                    <div class="grid-head compra">
+                        <div class="col-lg-5 col-sm-5 bg3">
+                             <!-- Button to Open the Modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                        Compra tu Plan
+                    </button>
+                    
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                        
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title"><a href="pages/reservas.html">Compra tu Plan</a></h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                        
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    Necesitamos tus datos básicos, tipo de plan y fecha de visita para confirmar disponibilidad
+                                </div>
+                        
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--Menú Navegación-->
+        <nav class=" bgColorAzulFondo1">
+            <div class="cabecera">
+                <!--<div class="grid-head logo">
+                    <img src="icons\logo2.png">
+                </div>-->
+                <div class="textoMenu colorAzul">
+                    <p>
+                        Club Campestre San Isidro
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="index.html">
+                    <div class="grid-item bgColorRojoBoton colorBlanco">Inicio</div>
+                </a>
+                <a href="pages/reservas.html">
+                    <div class="grid-item bgColorAmarilloBoton colorAzul">Reservas</div>
+                </a>
+                <a href="pages/planes.html">
+                    <div class="grid-item bgColorVerdeBoton colorBlanco">Planes</div>
+                </a>
+                <a href="pages/servicios.html">
+                    <div class="grid-item bgColorAzulBoton colorAzul">Servicios</div>
+                </a>
+                <a href="pages/contacto.html">
+                    <div class="grid-item bgColorCremaBoton colorAzul">Contacto</div>
+                </a>
+                <a href="pages/login.html">
+                    <div class="grid-item bgColorRojoBoton colorBlanco">Login</div>
+                </a>
+            </div>
+        </nav>
+        <!--Contenidos Central-->
+        <section id="galeria">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-1 col-lg-1 col-md-4 col-sm-8 col-xs-10 bg1"></div>
+                    <div class="col-xl-11 col-lg-11 col-md-8 col-sm-4 col-xs-2 bg2">
+                        <!--Galeria Imagenes-->
+                        <div id="demo" class="carousel slide" data-ride="carousel">
+
+                            <!-- Indicadores -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                <li data-target="#demo" data-slide-to="1"></li>
+                                <li data-target="#demo" data-slide-to="2"></li>
+                                <li data-target="#demo" data-slide-to="3"></li>
+                                <li data-target="#demo" data-slide-to="4"></li>
+                            </ul>
+                        
+                            <!-- Diapositivas -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/aerea1.png" class="img-thumbnail img-fluid" alt="Piscinas - Tobogán">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/piscina_tobogan.png" class="img-thumbnail img-fluid" alt="Tobogán con 80 mts de recorrido">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/palmeras.png" class="img-thumbnail img-fluid" alt="Zonas y Espacios Verdes">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/salon.png" class="img-thumbnail img-fluid" alt="Salon de Eventos - Restaurante">
+                                </div>
+                            </div>
+                        
+                            <!-- Controles de izquierda y derecha -->
+                            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                        <h3>Galeria de Imágenes</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-1 col-lg-1 col-md-4 col-sm-8 col-xs-10 bg1"></div>
+                    <div class="col-xl-11 col-lg-11 col-md-8 col-sm-4 col-xs-2 bg2">
+                        <iframe src="https://www.youtube.com/embed/M_aHjx6_jnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+                    </div>
+                    <h3>Galería de Videos</h3>
+                </div>
+                
+            </div>
+        </section>
+        <!--Lateral Derecha-->
+        <aside id="lateral">
+           
+        </aside>
+        <footer class="pie">
+            <div class="gradiente"></div>
+            <div>
+                Club Campestre San Isidro &reg; - Villeta (Cundinamarca) / <a href="mailto: cmhc85@gmail.com">sanisidro@gmail.com</a> / <a href="tel: +573105770515">(+57) 310 577 0515	</a>
+            </div>
+            <div class="grid-head redes">
+                Siguenos/Escribenos
+                <div> 
+                    <img src="icons\botonTelefono.png" class="imgRedes">
+                    <img src="icons\botonWhatsapp.png" class="imgRedes">
+                    <img src="icons\botonFacebook.png" class="imgRedes">
+                    <img src="icons\botonInstagram.png" class="imgRedes">
+                    <img src="icons\botonYoutube.png" class="imgRedes">
+                    <img src="icons\botonTripadvisor.png" class="imgRedes">
+                    <img src="icons\botonCorreo.png" class="imgRedes">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!--Scripts-->
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

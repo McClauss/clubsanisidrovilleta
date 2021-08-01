@@ -1,0 +1,48 @@
+@charset "UTF-8";
+header {
+  font-family: 'Amatic SC', cursive;
+}
+
+header .titulo {
+  color: #0B4B88;
+}
+
+nav {
+  font-family: 'Amatic SC', cursive;
+}
+
+section {
+  font-family: 'Neucha', cursive;
+}
+
+footer {
+  font-family: 'Neucha', cursive;
+}
+
+footer .gradiente {
+  background-image: linear-gradient(to left, #0B4B88, #27B46E);
+  padding: 10px;
+  margin: 5px;
+}
+
+.row {
+  margin: 1px;
+}
+
+/*Para el Botón de Whatsapp*/
+.float {
+  position: fixed;
+  width: 60px;
+  height: 57px;
+  bottom: 72px;
+  right: 10px;
+  background-color: #01B32B;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 34px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 6;
+}
+
+/*# sourceMappingURL=style.css.map */
